@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		370D682B1F9DDCDB00B58E12 /* ESTabBarController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370D682A1F9DDCDB00B58E12 /* ESTabBarController.framework */; };
+		370D682C1F9DDCDB00B58E12 /* ESTabBarController.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 370D682A1F9DDCDB00B58E12 /* ESTabBarController.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		370D68361F9DE60E00B58E12 /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D68341F9DE60E00B58E12 /* GuideViewController.swift */; };
+		370D68371F9DE60E00B58E12 /* GuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370D68351F9DE60E00B58E12 /* GuideViewController.xib */; };
+		370D683A1F9DE7D500B58E12 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D68381F9DE7D500B58E12 /* HomeViewController.swift */; };
+		370D683B1F9DE7D500B58E12 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370D68391F9DE7D500B58E12 /* HomeViewController.xib */; };
+		370D683E1F9DEA2900B58E12 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D683C1F9DEA2900B58E12 /* TestViewController.swift */; };
+		370D683F1F9DEA2900B58E12 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370D683D1F9DEA2900B58E12 /* TestViewController.xib */; };
+		370D68411F9E04B700B58E12 /* ETNavBarTransparent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370D68401F9E04B700B58E12 /* ETNavBarTransparent.swift */; };
 		3778442C1F9DC6F100D9984E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3778442B1F9DC6F100D9984E /* AppDelegate.swift */; };
 		3778442E1F9DC6F100D9984E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3778442D1F9DC6F100D9984E /* ViewController.swift */; };
-		377844311F9DC6F100D9984E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3778442F1F9DC6F100D9984E /* Main.storyboard */; };
 		377844331F9DC6F100D9984E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377844321F9DC6F100D9984E /* Assets.xcassets */; };
 		377844361F9DC6F100D9984E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377844341F9DC6F100D9984E /* LaunchScreen.storyboard */; };
 		377844411F9DC6F100D9984E /* RipptonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377844401F9DC6F100D9984E /* RipptonTests.swift */; };
 		3778444C1F9DC6F100D9984E /* RipptonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3778444B1F9DC6F100D9984E /* RipptonUITests.swift */; };
+		3778445B1F9DCF7C00D9984E /* ESTabBarController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3778445A1F9DCF7C00D9984E /* ESTabBarController.framework */; };
+		377844641F9DD50500D9984E /* RootViewControllerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377844631F9DD50500D9984E /* RootViewControllerProvider.swift */; };
+		377844681F9DD6A200D9984E /* KMNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377844671F9DD6A200D9984E /* KMNavigationViewController.swift */; };
+		3778446A1F9DD6BC00D9984E /* KMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377844691F9DD6BC00D9984E /* KMViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,11 +45,32 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		370D682D1F9DDCDB00B58E12 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				370D682C1F9DDCDB00B58E12 /* ESTabBarController.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		370D682A1F9DDCDB00B58E12 /* ESTabBarController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ESTabBarController.framework; path = Carthage/Build/iOS/ESTabBarController.framework; sourceTree = "<group>"; };
+		370D68341F9DE60E00B58E12 /* GuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
+		370D68351F9DE60E00B58E12 /* GuideViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GuideViewController.xib; sourceTree = "<group>"; };
+		370D68381F9DE7D500B58E12 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		370D68391F9DE7D500B58E12 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		370D683C1F9DEA2900B58E12 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		370D683D1F9DEA2900B58E12 /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		370D68401F9E04B700B58E12 /* ETNavBarTransparent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETNavBarTransparent.swift; sourceTree = "<group>"; };
 		377844281F9DC6F100D9984E /* Rippton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rippton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3778442B1F9DC6F100D9984E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3778442D1F9DC6F100D9984E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		377844301F9DC6F100D9984E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		377844321F9DC6F100D9984E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		377844351F9DC6F100D9984E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		377844371F9DC6F100D9984E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +80,10 @@
 		377844471F9DC6F100D9984E /* RipptonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RipptonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3778444B1F9DC6F100D9984E /* RipptonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipptonUITests.swift; sourceTree = "<group>"; };
 		3778444D1F9DC6F100D9984E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3778445A1F9DCF7C00D9984E /* ESTabBarController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ESTabBarController.framework; path = Carthage/Build/iOS/ESTabBarController.framework; sourceTree = "<group>"; };
+		377844631F9DD50500D9984E /* RootViewControllerProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewControllerProvider.swift; sourceTree = "<group>"; };
+		377844671F9DD6A200D9984E /* KMNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMNavigationViewController.swift; sourceTree = "<group>"; };
+		377844691F9DD6BC00D9984E /* KMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +91,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				370D682B1F9DDCDB00B58E12 /* ESTabBarController.framework in Frameworks */,
+				3778445B1F9DCF7C00D9984E /* ESTabBarController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +113,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		370D68291F9DDB5100B58E12 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				370D68381F9DE7D500B58E12 /* HomeViewController.swift */,
+				370D68391F9DE7D500B58E12 /* HomeViewController.xib */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
 		3778441F1F9DC6F100D9984E = {
 			isa = PBXGroup;
 			children = (
+				370D682A1F9DDCDB00B58E12 /* ESTabBarController.framework */,
 				3778442A1F9DC6F100D9984E /* Rippton */,
 				3778443F1F9DC6F100D9984E /* RipptonTests */,
 				3778444A1F9DC6F100D9984E /* RipptonUITests */,
 				377844291F9DC6F100D9984E /* Products */,
+				377844591F9DCF7B00D9984E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +147,20 @@
 		3778442A1F9DC6F100D9984E /* Rippton */ = {
 			isa = PBXGroup;
 			children = (
+				370D68401F9E04B700B58E12 /* ETNavBarTransparent.swift */,
 				3778442B1F9DC6F100D9984E /* AppDelegate.swift */,
 				3778442D1F9DC6F100D9984E /* ViewController.swift */,
-				3778442F1F9DC6F100D9984E /* Main.storyboard */,
 				377844321F9DC6F100D9984E /* Assets.xcassets */,
+				370D68291F9DDB5100B58E12 /* Tabbar */,
 				377844341F9DC6F100D9984E /* LaunchScreen.storyboard */,
 				377844371F9DC6F100D9984E /* Info.plist */,
+				377844631F9DD50500D9984E /* RootViewControllerProvider.swift */,
+				377844671F9DD6A200D9984E /* KMNavigationViewController.swift */,
+				377844691F9DD6BC00D9984E /* KMViewController.swift */,
+				370D68341F9DE60E00B58E12 /* GuideViewController.swift */,
+				370D68351F9DE60E00B58E12 /* GuideViewController.xib */,
+				370D683C1F9DEA2900B58E12 /* TestViewController.swift */,
+				370D683D1F9DEA2900B58E12 /* TestViewController.xib */,
 			);
 			path = Rippton;
 			sourceTree = "<group>";
@@ -125,6 +183,14 @@
 			path = RipptonUITests;
 			sourceTree = "<group>";
 		};
+		377844591F9DCF7B00D9984E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3778445A1F9DCF7C00D9984E /* ESTabBarController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +201,7 @@
 				377844241F9DC6F100D9984E /* Sources */,
 				377844251F9DC6F100D9984E /* Frameworks */,
 				377844261F9DC6F100D9984E /* Resources */,
+				370D682D1F9DDCDB00B58E12 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,7 +260,7 @@
 				TargetAttributes = {
 					377844271F9DC6F100D9984E = {
 						CreatedOnToolsVersion = 9.0.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					3778443B1F9DC6F100D9984E = {
 						CreatedOnToolsVersion = 9.0.1;
@@ -233,8 +300,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				377844361F9DC6F100D9984E /* LaunchScreen.storyboard in Resources */,
+				370D683F1F9DEA2900B58E12 /* TestViewController.xib in Resources */,
+				370D68371F9DE60E00B58E12 /* GuideViewController.xib in Resources */,
 				377844331F9DC6F100D9984E /* Assets.xcassets in Resources */,
-				377844311F9DC6F100D9984E /* Main.storyboard in Resources */,
+				370D683B1F9DE7D500B58E12 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +328,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				377844681F9DD6A200D9984E /* KMNavigationViewController.swift in Sources */,
+				3778446A1F9DD6BC00D9984E /* KMViewController.swift in Sources */,
+				370D683A1F9DE7D500B58E12 /* HomeViewController.swift in Sources */,
+				370D68361F9DE60E00B58E12 /* GuideViewController.swift in Sources */,
+				377844641F9DD50500D9984E /* RootViewControllerProvider.swift in Sources */,
 				3778442E1F9DC6F100D9984E /* ViewController.swift in Sources */,
+				370D68411F9E04B700B58E12 /* ETNavBarTransparent.swift in Sources */,
+				370D683E1F9DEA2900B58E12 /* TestViewController.swift in Sources */,
 				3778442C1F9DC6F100D9984E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,14 +372,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3778442F1F9DC6F100D9984E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				377844301F9DC6F100D9984E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		377844341F9DC6F100D9984E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -426,12 +494,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = XTAP77ZJQZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Rippton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mao.Rippton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cf60fde1-a01d-4adc-9b3d-678974c623d3";
+				PROVISIONING_PROFILE_SPECIFIER = Development_generate;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -441,12 +515,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XTAP77ZJQZ;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Rippton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mao.Rippton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

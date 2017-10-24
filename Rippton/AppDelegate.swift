@@ -16,6 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let screenSize = UIScreen.main.bounds
+        self.window = UIWindow(frame: CGRect(x: 0, y: 0, width: screenSize.width, height: screenSize.height))
+        //self.window?.rootViewController = RootViewControllerProvider.tabbarWithNavigationStyle()
+        self.window?.rootViewController = GuideViewController()
+        self.window?.makeKeyAndVisible()
         return true
     }
 
